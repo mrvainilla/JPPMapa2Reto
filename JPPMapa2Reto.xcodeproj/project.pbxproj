@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09720E901E5E15F100A6FA70 /* APITaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09720E8F1E5E15F100A6FA70 /* APITaskManager.swift */; };
 		099CFD291E5B6B3A00597519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099CFD281E5B6B3A00597519 /* AppDelegate.swift */; };
 		099CFD2B1E5B6B3A00597519 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099CFD2A1E5B6B3A00597519 /* ViewController.swift */; };
 		099CFD2E1E5B6B3A00597519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099CFD2C1E5B6B3A00597519 /* Main.storyboard */; };
 		099CFD301E5B6B3A00597519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 099CFD2F1E5B6B3A00597519 /* Assets.xcassets */; };
 		099CFD331E5B6B3A00597519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099CFD311E5B6B3A00597519 /* LaunchScreen.storyboard */; };
+		099CFD3C1E5B6F3C00597519 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099CFD3B1E5B6F3C00597519 /* MapKit.framework */; };
+		099CFD3E1E5B771900597519 /* JPPMiGPSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099CFD3D1E5B771900597519 /* JPPMiGPSViewController.swift */; };
+		099CFD421E5B7FCF00597519 /* JPLugarFavoritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099CFD411E5B7FCF00597519 /* JPLugarFavoritoViewController.swift */; };
+		099CFD451E5B801D00597519 /* JPPMAListaLugaresTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099CFD441E5B801D00597519 /* JPPMAListaLugaresTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09720E8F1E5E15F100A6FA70 /* APITaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APITaskManager.swift; sourceTree = "<group>"; };
 		099CFD251E5B6B3A00597519 /* JPPMapa2Reto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPPMapa2Reto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		099CFD281E5B6B3A00597519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		099CFD2A1E5B6B3A00597519 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		099CFD2F1E5B6B3A00597519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		099CFD321E5B6B3A00597519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		099CFD341E5B6B3A00597519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099CFD3B1E5B6F3C00597519 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		099CFD3D1E5B771900597519 /* JPPMiGPSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPPMiGPSViewController.swift; sourceTree = "<group>"; };
+		099CFD411E5B7FCF00597519 /* JPLugarFavoritoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPLugarFavoritoViewController.swift; sourceTree = "<group>"; };
+		099CFD441E5B801D00597519 /* JPPMAListaLugaresTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JPPMAListaLugaresTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099CFD3C1E5B6F3C00597519 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,7 @@
 			children = (
 				099CFD271E5B6B3A00597519 /* JPPMapa2Reto */,
 				099CFD261E5B6B3A00597519 /* Products */,
+				099CFD3A1E5B6F3C00597519 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +67,33 @@
 			isa = PBXGroup;
 			children = (
 				099CFD281E5B6B3A00597519 /* AppDelegate.swift */,
-				099CFD2A1E5B6B3A00597519 /* ViewController.swift */,
+				09720E8F1E5E15F100A6FA70 /* APITaskManager.swift */,
+				099CFD431E5B7FE200597519 /* VIEWS */,
 				099CFD2C1E5B6B3A00597519 /* Main.storyboard */,
 				099CFD2F1E5B6B3A00597519 /* Assets.xcassets */,
 				099CFD311E5B6B3A00597519 /* LaunchScreen.storyboard */,
 				099CFD341E5B6B3A00597519 /* Info.plist */,
 			);
 			path = JPPMapa2Reto;
+			sourceTree = "<group>";
+		};
+		099CFD3A1E5B6F3C00597519 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				099CFD3B1E5B6F3C00597519 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		099CFD431E5B7FE200597519 /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				099CFD411E5B7FCF00597519 /* JPLugarFavoritoViewController.swift */,
+				099CFD441E5B801D00597519 /* JPPMAListaLugaresTableViewController.swift */,
+				099CFD3D1E5B771900597519 /* JPPMiGPSViewController.swift */,
+				099CFD2A1E5B6B3A00597519 /* ViewController.swift */,
+			);
+			name = VIEWS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +169,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				099CFD2B1E5B6B3A00597519 /* ViewController.swift in Sources */,
+				09720E901E5E15F100A6FA70 /* APITaskManager.swift in Sources */,
 				099CFD291E5B6B3A00597519 /* AppDelegate.swift in Sources */,
+				099CFD451E5B801D00597519 /* JPPMAListaLugaresTableViewController.swift in Sources */,
+				099CFD3E1E5B771900597519 /* JPPMiGPSViewController.swift in Sources */,
+				099CFD421E5B7FCF00597519 /* JPLugarFavoritoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +333,7 @@
 				099CFD391E5B6B3A00597519 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
